@@ -27,7 +27,7 @@ int main( int argc, char *argv[] )  {
     printf("Two arguments expected.\n");
     return 1;
   }
-  system("git status");
+  //  system("git status");
   system("git pull");
   char buf1[50];
   sprintf(buf1, "git add %s", argv[1]);
